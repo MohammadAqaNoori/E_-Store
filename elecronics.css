@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E3E6E6
+}
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background: #e8e8e8;
+    height: 8vh;
+}
+h1 {
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+/* Align Log in and Sign up on the Same Line */
+.auth-links {
+    display: flex;
+    gap: 20px;
+    margin-right: 2%;
+}
+
+/* Link Styling */
+.auth-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: medium;
+}
+
+.auth-links a:hover {
+    color: #0097a7;
+}
+/* Search Bar Container */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 400px;
+    height: 30px;
+    border: 0.5px solid #ffffff;
+}
+
+/* Category Dropdown */
+.search-category {
+    padding: 10px;
+    border: none;
+    background: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Search Input */
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Search Button */
+.search-button {
+    background: #00bcd4;
+    border: 2px solid transparent;
+
+
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-color: #00bcd4;
+    
+    
+}
+
+.search-button i {
+    font-size: 16px;
+    color: white;
+}
+
+.search-button:hover {
+    background: #0097a7;
+    border-color: #0097a7;
+    border: 2px solid #0097a7;
+    
+}
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    margin-bottom: 100px;
+    background-color: white;
+    
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 23px;
+    width: 230px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+
+}
+
+button {
+    background: #00bcd4 ;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.product button:hover {
+    background-color: #0097a7;
+    transform: scale(1.05);
+}
+.electronics-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the heading */
+}
+
+.products {
+    display: flex;
+    gap: 20px; /* Adds spacing between items */
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 10px;
+    font-size: 0.9em;
+}
+
+.discounted-price {
+    color: #e60000;
+    
+    font-size: 0.9em;
+}
